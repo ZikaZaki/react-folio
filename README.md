@@ -1,49 +1,258 @@
-# React Js Portfolio Website
+<a name="readme-top"></a>
 
-![MacBook Air - 2 (3)](https://user-images.githubusercontent.com/75136330/203812467-8b00176d-9d31-4c09-86c0-8b82b8c661eb.png)
-![127 0 0 1_5173_ (1)](https://user-images.githubusercontent.com/75136330/203812531-baeb4957-5c7d-4222-a07a-2805b278bdbf.png)
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="recipestash-logo.png" alt="logo" width="720"  height="auto" />
+  <br/>
 
-## Available Scripts
+  <h3><b>React-Folio</b></h3>
 
-In the project directory, you can run:
+</div>
 
-### `npm install`
+<!-- TABLE OF CONTENTS -->
 
-### `npm run dev`
+# 📗 Table of Contents
 
-<br />
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 React-Folio ](#-react-folio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
-> Youtube Channel -
-> Subscribe [Code A Program](https://www.youtube.com/@CodeAProgram) Channel
+<!-- PROJECT DESCRIPTION -->
 
-> Video Link -
-> [Watch Now](https://www.youtube.com/watch?v=YpFK4hUZ-NM)
+# 📖 React-Folio <a name="about-project"></a>
 
-> Go To [Live Preview](https://codeaprogram-portfolio.web.app/)
+The **React-Folio** app keeps track of all recipes, ingredients, and inventory. It allows users to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what they have and what they are missing from a recipe. Also, the app enables users to make their recipes public so anyone can access them.
 
-> Startup [repository link](https://github.com/Sridhar-C-25/React_portfolio_2_startup)
+## 🛠 Built With <a name="built-with"></a>
 
-## You Learn
+### Tech Stack <a name="tech-stack"></a>
 
-- react js hooks
-- folder structure
-- tailwind css
-- swiper js
-- react icons
-- react js packages (ex:react-modal)
-- email js
-- aos scroll animation
-- and more....
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
----
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+    <li><a href="https://vitejs.dev/">Vite.js</a></li>
+    <li><a href="https://swiperjs.com/">Swiper.js</a></li>
+    <li><a href="https://www.emailjs.com/">Email.js</a></li>
+    <li><a href="https://michalsnik.github.io/aos/">Aos.js</a></li>
+    <li><a href="https://www.npmjs.com/package/react-modal">React Modal</a></li>
+    <li><a href="https://react-hot-toast.com/">React Hot Toast</a></li>
+    <li><a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
+  </ul>
+</details>
 
-# packages:
-+ tailwind css - https://tailwindcss.com/docs/installation
-+ vite js - https://vitejs.dev/guide/
-+ swiper js - https://swiperjs.com/get-started
-+ email js - https://www.emailjs.com/docs/
-+ Aos (animation) - https://michalsnik.github.io/aos/
-+ react modal - https://www.npmjs.com/package/react-modal
-+ react-hot-toast - https://react-hot-toast.com/docs
-+ react icons - https://react-icons.github.io/react-icons/
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://nodejs.org/en/">Node.js</a></li>
+  </ul>
+</details>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Manage Food Records]**
+- **[Manage Recipes Records]**
+- **[Create Public Recipes]**
+- **[Manage User Profile]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Zakariya Al-Khamisi ([ZikaZaki](https://github.com/ZikaZaki))**
+
+- GitHub: [ZikaZaki](https://github.com/ZikaZaki)
+- Twitter: [Zakariya Al-Khamisi](https://twitter.com/ZakariyaKhamisi)
+- LinkedIn: [Zakariya Al-Khamisi](https://www.linkedin.com/in/zackops/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Add Inventories]**
+- [ ] **[Generate Shopping List]**
+- [ ] **[Add User Picture]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
