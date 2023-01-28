@@ -65,8 +65,8 @@ const Skills = () => {
 
       {/* content */}
       <div className="md:container px-5 py-14">
-        <h2 className="md:text-3xl text-2xl">{skills.title}</h2>
-        <h4 className="text-gray">{skills.subtitle}</h4>
+        <h2 className="title">{skills.title}</h2>
+        <h4 className="subtitle">{skills.subtitle}</h4>
         <br />
         <div className="flex flex-wrap gap-4 justify-center">
           {skills.skills_content.map((skill, i) => (
