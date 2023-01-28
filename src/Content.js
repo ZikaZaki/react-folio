@@ -131,7 +131,7 @@ const content = {
       },
     ],
   },
-  Projects: {
+  projects: {
     title: 'Projects',
     subtitle: 'MY CREATION',
     image: PersonProject,
@@ -150,7 +150,7 @@ const content = {
       },
     ],
   },
-  Testimonials: {
+  testimonials: {
     title: 'Testimonials',
     subtitle: 'MY CLIENT REVIEWS',
     testimonials_content: [
@@ -180,7 +180,7 @@ const content = {
       },
     ],
   },
-  Hireme: {
+  hireme: {
     title: 'Hire Me',
     subtitle: 'FOR YOUR PROJECTS',
     image1: HiremePerson,
@@ -188,7 +188,7 @@ const content = {
     para: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean',
     btnText: 'Hire Me',
   },
-  Contact: {
+  contact: {
     title: 'Contect Me',
     subtitle: 'GET IN TOUCH',
     social_media: [
@@ -209,7 +209,7 @@ const content = {
       },
     ],
   },
-  Footer: {
+  footer: {
     text: 'All © Copy Right Reserved 2022',
   },
 };

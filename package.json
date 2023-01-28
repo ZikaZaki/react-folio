@@ -16,7 +16,7 @@
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.6.0",
     "react-modal": "^3.16.1",
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
