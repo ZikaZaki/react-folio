@@ -7,26 +7,26 @@ import { BiUser } from 'react-icons/bi';
 import { RiServiceLine, RiProjectorLine } from 'react-icons/ri';
 import HeroPerson from './assets/images/Hero/person.png';
 
-import figma from './assets/images/Skills/figma.png';
-import sketch from './assets/images/Skills/sketch.png';
-import ps from './assets/images/Skills/ps.png';
-import reactjs from './assets/images/Skills/react.png';
-import nodejs from './assets/images/Skills/node.png';
-import python from './assets/images/Skills/python.png';
+import Figma from './assets/images/Skills/figma.png';
+import Sketch from './assets/images/Skills/sketch.png';
+import Ps from './assets/images/Skills/ps.png';
+import Reactjs from './assets/images/Skills/react.png';
+import Nodejs from './assets/images/Skills/node.png';
+import Python from './assets/images/Skills/python.png';
 
 import ServicesLogo1 from './assets/images/Services/logo1.png';
 import ServicesLogo2 from './assets/images/Services/logo2.png';
 import ServicesLogo3 from './assets/images/Services/logo3.png';
 
-import project1 from './assets/images/projects/img1.png';
-import project2 from './assets/images/projects/img2.png';
-import project3 from './assets/images/projects/img3.png';
-import PersonProject from './assets/images/projects/person.png';
+import Project1 from './assets/images/Projects/img1.png';
+import Project2 from './assets/images/Projects/img2.png';
+import Project3 from './assets/images/Projects/img3.png';
+import PersonProject from './assets/images/Projects/person.png';
 
-import avatar1 from './assets/images/Testimonials/avatar1.png';
-import avatar2 from './assets/images/Testimonials/avatar2.png';
-import avatar3 from './assets/images/Testimonials/avatar3.png';
-import avatar4 from './assets/images/Testimonials/avatar4.png';
+import Avatar1 from './assets/images/Testimonials/avatar1.png';
+import Avatar2 from './assets/images/Testimonials/avatar2.png';
+import Avatar3 from './assets/images/Testimonials/avatar3.png';
+import Avatar4 from './assets/images/Testimonials/avatar4.png';
 
 import HiremePerson from './assets/images/Hireme/person.png';
 import HiremePerson2 from './assets/images/Hireme/person2.png';
@@ -58,8 +58,8 @@ const content = {
   ],
   hero: {
     title: 'Web Developer',
-    firstName: 'JOHN',
-    LastName: 'ALEX',
+    firstName: 'ZIKA',
+    lastName: 'ZAKI',
     btnText: 'Hire Me',
     image: HeroPerson,
     hero_content: [
@@ -80,32 +80,32 @@ const content = {
       {
         name: 'Figma',
         para: 'Lorem ipsum text  dummy',
-        logo: figma,
+        logo: Figma,
       },
       {
         name: 'Node js',
         para: 'Lorem ipsum text  dummy',
-        logo: nodejs,
+        logo: Nodejs,
       },
       {
         name: 'Adobe Photoshop',
         para: 'Lorem ipsum text  dummy',
-        logo: ps,
+        logo: Ps,
       },
       {
         name: 'React js',
         para: 'Lorem ipsum text  dummy',
-        logo: reactjs,
+        logo: Reactjs,
       },
       {
         name: 'Sketch',
         para: 'Lorem ipsum text  dummy',
-        logo: sketch,
+        logo: Sketch,
       },
       {
         name: 'Python',
         para: 'Lorem ipsum text  dummy',
-        logo: python,
+        logo: Python,
       },
     ],
     icon: MdArrowForward,
@@ -138,15 +138,15 @@ const content = {
     project_content: [
       {
         title: 'Gym Website',
-        image: project1,
+        image: Project1,
       },
       {
         title: 'Social Media web',
-        image: project2,
+        image: Project2,
       },
       {
         title: 'Creative Website',
-        image: project3,
+        image: Project3,
       },
     ],
   },
@@ -157,25 +157,25 @@ const content = {
       {
         review:
           '“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”',
-        img: avatar1,
+        img: Avatar1,
         name: 'JOHN DOE',
       },
       {
         review:
           '“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”',
-        img: avatar2,
+        img: Avatar2,
         name: 'Tom Alex',
       },
       {
         review:
           '“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”',
-        img: avatar3,
+        img: Avatar3,
         name: 'Johnny',
       },
       {
         review:
           '“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”',
-        img: avatar4,
+        img: Avatar4,
         name: 'ROBBIN',
       },
     ],
