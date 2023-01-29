@@ -26,7 +26,7 @@ const Projects = () => {
             className="max-w-[45vw] min-w-[22rem]" 
           />
           <Swiper 
-            spaceBetween={20} //slidesPerView={3} 
+            spaceBetween={15} //slidesPerView={3} 
             pagination={{
             clickable: true,
             }}
