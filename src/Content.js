@@ -210,7 +210,7 @@ const content = {
     ],
   },
   footer: {
-    text: 'All © Copy Right Reserved 2023',
+    text: 'ZikaZaki © All CopyRights Reserved 2023',
   },
 };
 
