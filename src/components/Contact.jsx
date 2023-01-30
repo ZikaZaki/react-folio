@@ -28,11 +28,11 @@ const Contact = () => {
     <section id="contact" className="bg-dark_primary text-white">
       <Toaster />
       <div className="md:container px-5 py-14">
-        <h2 className="title !text-white">{contact.title}</h2>
-        <h4 className="subtitle">{contact.subtitle}</h4>
+        <h2 className="title !text-white" data-aos="fade-down">{contact.title}</h2>
+        <h4 className="subtitle" data-aos="fade-down">{contact.subtitle}</h4>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
-          <form ref={form} onSubmit={sendEmail} className="flex flex-col flex-1 gap-5">
+          <form ref={form} onSubmit={sendEmail} className="flex flex-col flex-1 gap-5" data-aos="fade-up">
             <input 
               type="text" 
               name="user_name" 
@@ -59,7 +59,12 @@ const Contact = () => {
           <div className="flex flex-col flex-1 gap-5">
             {
               contact.social_media.map((content, i) => (
-                <div key={i} className="flex items-center gap-2">
+                <div 
+                  key={i} 
+                  data-aos="fade-down" 
+                  data-aos-delay={i * 430} 
+                  className="flex items-center gap-2"
+                >
                   <h4 className="text-white">{createElement(content.icon)}</h4>
                   <a 
                     className="font-Poppins" 

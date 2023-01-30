@@ -16,8 +16,8 @@ const Testimonials = () => {
   return (
     <section>
       <div className="md:container px-5 pt-14">
-        <h2 className="title">{testimonials.title}</h2>
-        <h4 className="subtitle">{testimonials.subtitle}</h4>
+        <h2 className="title" data-aos="fade-down">{testimonials.title}</h2>
+        <h4 className="subtitle" data-aos="fade-down">{testimonials.subtitle}</h4>
         <br />
         <Swiper
           effect={"coverflow"}
@@ -35,6 +35,7 @@ const Testimonials = () => {
             clickable: true,
           }}
           loop={true}
+          data-aos="fade-up"
           // spaceBetween={40}
           slidesPerView={3}
           onSlideChange={(e)=>{
