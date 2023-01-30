@@ -1,5 +1,6 @@
 // import content
 import content from '../Content';
+
 const Hero = () => {
   const { hero } = content;
   return ( <section>

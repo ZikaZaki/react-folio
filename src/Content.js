@@ -193,24 +193,24 @@ const content = {
     subtitle: 'GET IN TOUCH',
     social_media: [
       {
-        text: 'codeaprogram@gmail.com',
+        text: 'ziiikoooo2000@gmail.com',
         icon: GrMail,
-        link: 'mailto:codeaprogram@gmail.com',
+        link: 'mailto:ziiikoooo2000@gmail.com',
       },
       {
-        text: '+91 1234 56778',
+        text: '+967 7730 38525',
         icon: MdCall,
-        link: 'https://wa.me/1234567890',
+        link: 'https://wa.me/967773038525',
       },
       {
-        text: 'codeaprogram',
+        text: 'ZikaZaki',
         icon: BsInstagram,
-        link: 'https://www.instagram.com/codeaprogram/',
+        link: 'https://www.instagram.com/zikazaki/',
       },
     ],
   },
   footer: {
-    text: 'All © Copy Right Reserved 2022',
+    text: 'All © Copy Right Reserved 2023',
   },
 };
 
