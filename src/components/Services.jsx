@@ -4,7 +4,7 @@ const Services = () => {
   const { services } = content;
 
   return (
-    <section>
+    <section id="services">
       <div className="md:container px-5 py-14">
         <h2 className="title">{services.title}</h2>
         <h4 className="subtitle">{services.subtitle}</h4>

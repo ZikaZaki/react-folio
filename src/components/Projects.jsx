@@ -13,7 +13,7 @@ const Projects = () => {
   const { projects } = content;
 
   return (
-    <section className="bg-bg_light_primary">
+    <section id="projects" className="bg-bg_light_primary">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
         <div>
           <h2 className="title">{projects.title}</h2>

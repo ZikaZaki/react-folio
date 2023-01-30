@@ -35,7 +35,7 @@ const Skills = () => {
   }
 
   return (
-    <section className="min-h-fit bg-bg_light_primary">
+    <section id="skills" className="min-h-fit bg-bg_light_primary">
       {/* Modal */}
       <Modal 
         isOpen={modalIsOpen}
