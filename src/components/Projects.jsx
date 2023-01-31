@@ -31,6 +31,7 @@ const Projects = () => {
             pagination={{
             clickable: true,
             }}
+            grabCursor={true}
             data-aos="fade-left"
             modules={[Pagination]}
             className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"

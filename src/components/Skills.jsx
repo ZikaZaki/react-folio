@@ -84,7 +84,7 @@ const Skills = () => {
                 <img src={skill.logo} alt="..." className="w-10 group-hover:scale-125 duration-200" />
               </div>
               <div>
-                <h6>{skill.name}</h6>
+                <h6 className="text-dark_primary">{skill.name}</h6>
                 <p className="italic">{skill.para}</p>
                 <div className="text-xl absolute top-3 right-3">
                   {createElement(skills.icon)}

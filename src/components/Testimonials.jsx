@@ -55,7 +55,7 @@ const Testimonials = () => {
                   {/* Add styling for the paragraph text-overflow */}
                   <p className="sm:text-base text-sm">{content.review}</p>
                   <br />
-                  <h6>{content.name}</h6>
+                  <h6 className="text-dark_primary">{content.name}</h6>
                 </div>
               </div>
             </SwiperSlide>

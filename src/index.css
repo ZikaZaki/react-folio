@@ -64,7 +64,7 @@
 @layer utilities {
   .btn {
     @apply py-2 px-9 border-2 rounded-md
-      border-dark_primary rounded-br-3xl font-medium;
+      border-dark_primary rounded-br-3xl font-medium hover:scale-105;
   }
 
   .title {
