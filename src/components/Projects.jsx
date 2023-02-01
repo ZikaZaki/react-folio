@@ -14,7 +14,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="bg-bg_light_primary">
-      <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
+      <div className="md:container px-5 pt-14 pb-5 min-h-screen flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">{projects.title}</h2>
           <h4 className="subtitle" data-aos="fade-down">{projects.subtitle}</h4>

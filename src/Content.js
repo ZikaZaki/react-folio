@@ -7,6 +7,7 @@ import { BiUser } from 'react-icons/bi';
 import { RiServiceLine, RiProjectorLine } from 'react-icons/ri';
 import HeroPerson from './assets/images/Hero/person.png';
 
+import Person from './assets/images/Skills/person.svg';
 import Figma from './assets/images/Skills/figma.png';
 import Sketch from './assets/images/Skills/sketch.png';
 import Ps from './assets/images/Skills/ps.png';
@@ -21,15 +22,15 @@ import ServicesLogo3 from './assets/images/Services/logo3.png';
 import Project1 from './assets/images/Projects/img1.png';
 import Project2 from './assets/images/Projects/img2.png';
 import Project3 from './assets/images/Projects/img3.png';
-import PersonProject from './assets/images/Projects/person.png';
+import PersonProject from './assets/images/Projects/person.svg';
 
 import Avatar1 from './assets/images/Testimonials/avatar1.png';
 import Avatar2 from './assets/images/Testimonials/avatar2.png';
 import Avatar3 from './assets/images/Testimonials/avatar3.png';
 import Avatar4 from './assets/images/Testimonials/avatar4.png';
 
-import HiremePerson from './assets/images/Hireme/person.png';
-import HiremePerson2 from './assets/images/Hireme/person2.png';
+import HiremePerson from './assets/images/Hireme/person.svg';
+// import HiremePerson2 from './assets/images/Hireme/person2.png';
 
 // import icons from react-icons
 
@@ -76,6 +77,7 @@ const content = {
   skills: {
     title: 'Skills',
     subtitle: 'MY TOP SKILLS',
+    person: Person,
     skills_content: [
       {
         name: 'Figma',
@@ -184,7 +186,7 @@ const content = {
     title: 'Hire Me',
     subtitle: 'FOR YOUR PROJECTS',
     image1: HiremePerson,
-    image2: HiremePerson2,
+    // image2: HiremePerson2,
     para: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean',
     btnText: 'Hire Me',
   },
